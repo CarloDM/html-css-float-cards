@@ -7,3 +7,33 @@
 body{
   font-family: 'Fredoka', sans-serif;
 }
+
+header{
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+header h1{
+  margin-bottom: 30px;
+  color: rgb(211, 49, 116);
+}
+
+header p {
+  margin-bottom: 60px;
+}
+
+.container{
+margin: auto;
+max-width: 800px;
+}
+
+.card {
+  float: left;
+  background-color: black;
+  width: 250px;
+}
+
+.card img {
+  width: calc(100% /4);
+}
