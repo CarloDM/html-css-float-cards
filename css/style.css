@@ -23,17 +23,49 @@ header p {
   margin-bottom: 60px;
 }
 
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .container{
 margin: auto;
+width: 90%;
 max-width: 800px;
 }
 
 .card {
   float: left;
   background-color: black;
-  width: 250px;
+  color: rgb(206, 8, 8);  
+  width: calc(90% /3 );
+  height: 80px;
+  margin: 10px;
+  /* display: inline-block; */
 }
 
 .card img {
-  width: calc(100% /4);
+  height: 100%;
+  float: left;
+}
+
+.card span {
+  padding-left: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.card span:first-of-type{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card span:last-of-type{
+  color: rgb(127, 204, 255);
+  font-size:10px;
+}
+
+.info {
+  padding: 10px;
 }
