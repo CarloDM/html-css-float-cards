@@ -76,13 +76,15 @@ header p {
 
 .contents h3{
   color: rgb(240, 240, 240);
-margin-bottom: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .contents .position{
   display: block;
   color: rgb(240, 240, 240);
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 
 .container a{
